@@ -1,0 +1,39 @@
+# Ignore artifacts
+node_modules
+.next
+.out
+dist
+build
+coverage
+public
+.vscode
+.idea
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Bundled files
+*.min.js
+*.map
+
+# Binary and media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+
+# Misc
+*.log
+
+# Keep Prettier configs tracked
+!.prettierrc
