@@ -1,0 +1,94 @@
+# .editorconfig
+root = true
+
+# Default rules for all files
+[*]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Markdown (preserve trailing spaces - used for hard line breaks)
+[*.md]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+[*.mdx]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+# JavaScript / TypeScript / JSX / TSX and related module formats
+[*.{js,jsx,ts,tsx,mjs,cjs,cts,mts}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JSON files (package.json, lockfiles, config json)
+[*.json]
+indent_style = space
+indent_size = 2
+tab_width = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# CSS / PostCSS / SCSS / LESS
+[*.{css,pcss,scss,sass,less}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# HTML / XML / SVG
+[*.{html,xml,svg}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# YAML / YML (CI, config)
+[*.yml]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Shell scripts
+[*.sh]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Makefile must use tabs for recipe lines
+[Makefile]
+indent_style = tab
+trim_trailing_whitespace = false
+insert_final_newline = true
