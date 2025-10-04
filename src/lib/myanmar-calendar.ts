@@ -40,22 +40,11 @@ export class MyanmarCalendarService {
       const chineseZodiac = baydin.chineseZodiac(yearNumber);
       const myanmarZodiac = baydin.zodiac(dateNumber, monthNumber);
 
-      // Handle objects returned by baydin library
-      const chineseZodiacStr =
-        typeof chineseZodiac === 'object'
-          ? chineseZodiac.signInBurmese || chineseZodiac.sign || 'Unknown'
-          : chineseZodiac || 'Unknown';
-
-      const myanmarZodiacStr =
-        typeof myanmarZodiac === 'object'
-          ? myanmarZodiac.sign_mm || myanmarZodiac.sign || 'Unknown'
-          : myanmarZodiac || 'Unknown';
-
       return {
         maharbote: maharbote || 'Unknown',
         numerology: numerology || 'Unknown',
-        chineseZodiac: chineseZodiacStr,
-        myanmarZodiac: myanmarZodiacStr
+        chineseZodiac: chineseZodiac || 'Unknown',
+        myanmarZodiac: myanmarZodiac || 'Unknown'
       };
     } catch (error) {
       console.error('Error calculating astrology:', error);
