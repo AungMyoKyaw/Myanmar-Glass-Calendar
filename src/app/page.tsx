@@ -60,30 +60,39 @@ export default function Home() {
   });
 
   return (
-    <div className="min-h-screen p-4 md:p-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="h-screen flex flex-col p-2 md:p-4">
+      <div className="max-w-7xl mx-auto w-full flex flex-col h-full">
         {/* Header */}
-        <header className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-2">
+        <header className="text-center mb-4 md:mb-6 flex-shrink-0">
+          <h1 className="text-2xl md:text-4xl font-bold text-text-primary mb-1 md:mb-2">
             Myanmar <span className="text-accent-blue">Glass</span> Calendar
           </h1>
-          <p className="text-text-secondary text-lg">
+          <p className="text-text-secondary text-sm md:text-base">
             Traditional Myanmar calendar with astrological insights
           </p>
         </header>
 
         {/* Main Calendar Container */}
-        <main className="space-y-6">
+        <main className="flex-1 flex flex-col space-y-4 md:space-y-6 min-h-0">
           {/* Navigation */}
-          <CalendarNavigation
-            currentMonth={currentMonth}
-            onMonthChange={handleMonthChange}
-            onTodayClick={handleTodayClick}
-          />
+          <div className="flex-shrink-0">
+            <CalendarNavigation
+              currentMonth={currentMonth}
+              onMonthChange={handleMonthChange}
+              onTodayClick={handleTodayClick}
+            />
+          </div>
 
           {/* Calendar Grid */}
-          <CalendarGrid dates={calendarDates} onDateClick={handleDateClick} />
+          <div className="flex-1 min-h-0">
+            <CalendarGrid dates={calendarDates} onDateClick={handleDateClick} />
+          </div>
         </main>
+
+        {/* Footer */}
+        <footer className="text-center mt-4 text-text-tertiary text-xs flex-shrink-0">
+          <p>Myanmar Glass Calendar © 2025</p>
+        </footer>
 
         {/* Date Detail Modal */}
         <DateDetailModal
@@ -91,15 +100,6 @@ export default function Home() {
           isOpen={isModalOpen}
           onClose={handleModalClose}
         />
-
-        {/* Footer */}
-        <footer className="text-center mt-12 text-text-tertiary text-sm">
-          <p>Myanmar Glass Calendar © 2025</p>
-          <p className="mt-2">
-            Featuring traditional Myanmar calendar system and astrological
-            calculations
-          </p>
-        </footer>
 
         {/* Keyboard shortcuts */}
         <KeyboardShortcuts />

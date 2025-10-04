@@ -10,6 +10,9 @@ public
 .idea
 .DS_Store
 
+# Playwright MCP artifacts
+.playwright-mcp
+
 # Env files
 .env
 .env.*

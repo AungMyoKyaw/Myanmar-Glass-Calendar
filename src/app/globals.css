@@ -119,8 +119,14 @@ body {
     -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text',
     system-ui, sans-serif;
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
   color: var(--color-text-primary);
+}
+
+html {
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* Reduce Motion Support */
