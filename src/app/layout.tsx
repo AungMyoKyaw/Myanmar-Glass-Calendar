@@ -13,30 +13,30 @@ const geistMono = Geist_Mono({
 });
 
 export const viewport: Viewport = {
-  themeColor: '#ffffff'
+  themeColor: '#FF6B35'
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
   ),
-  title: 'Myanmar Calendar',
+  title: 'Myanmar Glass Calendar',
   description:
-    'Myanmar Calendar is a simple calendar application that displays Myanmar dates.',
+    'Myanmar Glass Calendar is a modern calendar application that displays Myanmar dates and astrological information.',
   openGraph: {
-    title: 'Myanmar Calendar',
+    title: 'Myanmar Glass Calendar',
     description:
-      'Myanmar Calendar is a simple calendar application that displays Myanmar dates.',
+      'Myanmar Glass Calendar is a modern calendar application that displays Myanmar dates and astrological information.',
     images: [
       {
-        url: '/icon.jpg',
+        url: '/icon.svg',
         width: 1024,
         height: 1024,
-        alt: 'Myanmar Calendar'
+        alt: 'Myanmar Glass Calendar'
       }
     ],
     type: 'website',
-    siteName: 'Myanmar Calendar'
+    siteName: 'Myanmar Glass Calendar'
   },
   icons: {
     icon: [

@@ -1,0 +1,117 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F7931E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF5E6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle with gradient -->
+  <circle cx="512" cy="512" r="480" fill="url(#bgGradient)" />
+
+  <!-- Decorative outer ring -->
+  <circle cx="512" cy="512" r="460" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.3" />
+  <circle cx="512" cy="512" r="440" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.2" />
+
+  <!-- Calendar grid pattern -->
+  <g opacity="0.1">
+    <rect x="200" y="200" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="200" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="200" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="200" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="200" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="200" width="80" height="80" fill="#FFFFFF" />
+
+    <rect x="200" y="300" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="300" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="300" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="300" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="300" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="300" width="80" height="80" fill="#FFFFFF" />
+
+    <rect x="200" y="400" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="400" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="400" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="400" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="400" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="400" width="80" height="80" fill="#FFFFFF" />
+
+    <rect x="200" y="500" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="500" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="500" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="500" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="500" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="500" width="80" height="80" fill="#FFFFFF" />
+
+    <rect x="200" y="600" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="600" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="600" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="600" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="600" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="600" width="80" height="80" fill="#FFFFFF" />
+
+    <rect x="200" y="700" width="80" height="80" fill="#FFFFFF" />
+    <rect x="300" y="700" width="80" height="80" fill="#FFFFFF" />
+    <rect x="400" y="700" width="80" height="80" fill="#FFFFFF" />
+    <rect x="500" y="700" width="80" height="80" fill="#FFFFFF" />
+    <rect x="600" y="700" width="80" height="80" fill="#FFFFFF" />
+    <rect x="700" y="700" width="80" height="80" fill="#FFFFFF" />
+  </g>
+
+  <!-- Central calendar icon -->
+  <rect x="320" y="280" width="384" height="464" rx="24" fill="#FFFFFF" opacity="0.95" />
+
+  <!-- Calendar header -->
+  <rect x="320" y="280" width="384" height="80" rx="24" fill="#E85D0C" />
+  <rect x="320" y="320" width="384" height="40" fill="#E85D0C" />
+
+  <!-- Calendar rings -->
+  <circle cx="380" cy="320" r="16" fill="#FFFFFF" />
+  <circle cx="644" cy="320" r="16" fill="#FFFFFF" />
+
+  <!-- Myanmar calendar year text area -->
+  <text x="512" y="340" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="FFFFFF">မြန်မာ</text>
+
+  <!-- Calendar date grid -->
+  <g opacity="0.8">
+    <!-- Day numbers -->
+    <text x="360" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁</text>
+    <text x="420" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၂</text>
+    <text x="480" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၃</text>
+    <text x="540" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၄</text>
+    <text x="600" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၅</text>
+    <text x="660" y="420" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၆</text>
+
+    <text x="360" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၇</text>
+    <text x="420" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၈</text>
+    <text x="480" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၉</text>
+    <text x="540" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၀</text>
+    <text x="600" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၁</text>
+    <text x="660" y="470" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၂</text>
+
+    <text x="360" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၃</text>
+    <text x="420" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၄</text>
+    <text x="480" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#E85D0C" font-weight="bold">၁၅</text>
+    <text x="540" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၆</text>
+    <text x="600" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၇</text>
+    <text x="660" y="520" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">၁၈</text>
+  </g>
+
+  <!-- Traditional Myanmar pattern decoration -->
+  <g opacity="0.3">
+    <path d="M250 150 Q280 120, 310 150 T370 150" stroke="#FFFFFF" stroke-width="3" fill="none" />
+    <path d="M650 150 Q680 120, 710 150 T770 150" stroke="#FFFFFF" stroke-width="3" fill="none" />
+    <path d="M250 850 Q280 880, 310 850 T370 850" stroke="#FFFFFF" stroke-width="3" fill="none" />
+    <path d="M650 850 Q680 880, 710 850 T770 850" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Highlighted special day (today) -->
+  <circle cx="480" cy="505" r="20" fill="#FF6B35" opacity="0.8" />
+
+  <!-- Bottom text - "Calendar" in Myanmar -->
+  <text x="512" y="660" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">ပြက္ခဒိန်</text>
+</svg>

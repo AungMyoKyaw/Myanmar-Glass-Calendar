@@ -1,5 +1,9 @@
 # Myanmar Glass Calendar
 
+<div align="center">
+  <img src="/public/icon.svg" alt="Myanmar Glass Calendar Icon" width="120" height="120">
+</div>
+
 A beautiful, modern calendar application that displays Myanmar dates with an Apple Glass design aesthetic.
 
 ## Features
